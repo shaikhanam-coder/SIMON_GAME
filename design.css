@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    font-family:Arial;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px; 
+    margin: auto;
+}
+
+ .btn {
+    height: 140px;
+    width: 140px;
+    margin:10px;
+    border: radius 20px;
+    border :10px solid black;
+ }
+
+ .red { background-color: #F6B1CE; }
+.yellow { background-color: #1581BF; }
+.green { background-color: #3DB6B1; }
+.blue { background-color: #CCE5CF; }
+
+.flash {
+    background-color: white;
+}
+
+.line-one{
+    display: flex;
+    justify-content: center;
+}
+
+.line-two{
+    display: flex;
+    justify-content: center;
+}
